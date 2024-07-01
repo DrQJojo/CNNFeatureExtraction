@@ -2,6 +2,8 @@
 
 *** model_state_dict.pth is too large to upload, so if you want to use fine-tuned model, please train the model yourself, resnet50 and CIFAR10 are not big, it won't take much time to fine-tune the model.
 
+writeup file contains all the analysis of this project.
+
 Project Structure:
 
 main.py: This file contains the main functionality of the project. It handles downloading the dataset, initializing the model (either pretrained or fine-tuned), extracting features using different layers, implementing t-SNE for visualization, calculating variances, and displaying results.
